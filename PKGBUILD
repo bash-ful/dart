@@ -10,7 +10,7 @@ license=('BSD')
 depends=('glibc')
 provides=('dart')
 conflicts=('dart')
-source=("https://storage.googleapis.com/dart-archive/channels/stable/release/${_pkgver}/sdk/dartsdk-linux-x64-release.zip")
+source=("https://storage.googleapis.com/dart-archive/channels/stable/release/${pkgver}/sdk/dartsdk-linux-x64-release.zip")
 sha256sums=('1b1016fdeeb2037d181bedf3a5674f526f5a0ecb1bc97ed479dbfdbfc5a6d756')
 
 build() {

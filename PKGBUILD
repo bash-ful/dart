@@ -18,10 +18,10 @@ build() {
 }
 
 package() {
-    srcdir_sub="$srcdir/dart-sdk"
+    srcdir_sub="${srcdir}/dart-sdk"
     for file in $(find dart-sdk/ -type f) ; do
-        install -Dm644 "${file}" "$pkgdir/usr/${file#dart-sdk/}"
+        install -Dm644 "${file}" "${pkgdir}/usr/${file#dart-sdk/}"
     done
     echo $PWD
-    install -Dm755 "dart-sdk/bin/dart" "$pkgdir/usr/bin/"
+    install -Dm755 "dart-sdk/bin/dart" "${pkgdir}/usr/bin/"
 }

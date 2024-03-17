@@ -1,10 +1,8 @@
 # Maintainer: bash-ful <bash-ful0931@proton.me>
 
-_pkgver=3.3.1
-_pkgrel=1
 pkgname=dart
-pkgver=${_pkgver}
-pkgrel=${_pkgrel}
+pkgver=3.3.1
+pkgrel=1
 pkgdesc="The dart programming language SDK"
 arch=("x86_64")
 url="https://www.dartlang.org"
